@@ -179,6 +179,34 @@
   .stars{color:var(--orange); font-size:13px; letter-spacing:2px;}
   .prod-body .btn{margin-top:auto; width:100%; justify-content:center;}
 
+  /* catálogo completo */
+  .catalog-brand{margin-bottom:44px;}
+  .catalog-brand:last-child{margin-bottom:0;}
+  .catalog-brand h3{
+    font-size:15px; text-transform:uppercase; letter-spacing:0.06em; font-weight:700;
+    font-family:'IBM Plex Mono'; color:var(--orange-dark);
+    border-bottom:2px solid var(--concrete-2); padding-bottom:10px; margin-bottom:18px;
+  }
+  .catalog-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); gap:12px;}
+  .catalog-item{
+    display:flex; align-items:center; gap:12px; background:#fff;
+    border:1px solid var(--concrete-2); border-radius:6px; padding:12px 14px;
+    transition:border-color .15s, box-shadow .15s;
+  }
+  .catalog-item:hover{border-color:var(--orange); box-shadow:0 6px 16px rgba(27,33,38,0.08);}
+  .catalog-item .ic-wrap{width:36px; height:36px; flex-shrink:0; color:var(--steel-600); display:flex; align-items:center; justify-content:center;}
+  .catalog-item .ic-wrap svg{width:32px; height:32px;}
+  .catalog-item:hover .ic-wrap{color:var(--orange-dark);}
+  .catalog-item .info{min-width:0;}
+  .catalog-item .info h4{font-family:'Barlow'; font-weight:600; font-size:13.5px; color:var(--steel-900); text-transform:none; letter-spacing:0; line-height:1.25;}
+  .catalog-item .actions{display:flex; gap:10px; margin-top:5px;}
+  .catalog-item .actions a{
+    font-family:'IBM Plex Mono'; font-size:10px; text-transform:uppercase; letter-spacing:0.04em;
+    color:var(--steel-600); border-bottom:1px dotted var(--steel-600);
+  }
+  .catalog-item .actions a:hover{color:var(--orange-dark); border-color:var(--orange-dark);}
+  .catalog-item .actions a.wa{color:var(--orange-dark); border-bottom:1px solid var(--orange-dark); font-weight:600;}
+
   /* reviews */
   .reviews{background:var(--steel-900);}
   .reviews .section-head h2{color:#fff;}
