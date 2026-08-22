@@ -136,28 +136,29 @@
   .hero-visual .cap{font-family:'IBM Plex Mono'; font-size:11px; color:var(--steel-600); margin-top:14px; text-align:center; letter-spacing:0.04em;}
 
   /* carrossel de fotos no hero */
+  .carousel-wrap{position:relative;}
   .carousel{
-    overflow:hidden; border-radius:4px; background:#fff;
-    -webkit-mask-image:linear-gradient(90deg, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%);
-    mask-image:linear-gradient(90deg, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%);
+    display:flex; align-items:stretch; gap:0; overflow-x:auto; scroll-behavior:smooth;
+    scroll-snap-type:x mandatory; border-radius:4px; background:var(--concrete);
+    -ms-overflow-style:none; scrollbar-width:none;
   }
-  .carousel-track{
-    display:flex; align-items:center; gap:22px; width:max-content;
-    animation:carousel-scroll 48s linear infinite;
-  }
-  .carousel:hover .carousel-track{animation-play-state:paused;}
+  .carousel::-webkit-scrollbar{display:none;}
   .carousel-slide{
-    flex:0 0 auto; height:190px; width:190px; display:flex; align-items:center; justify-content:center;
-    background:var(--concrete); border-radius:4px; padding:14px;
+    flex:0 0 auto; width:190px; height:190px; display:flex; align-items:center; justify-content:center;
+    padding:16px; scroll-snap-align:start; border-right:1px solid var(--concrete-2);
   }
+  .carousel-slide:last-child{border-right:none;}
   .carousel-slide img{max-width:100%; max-height:100%; object-fit:contain;}
-  @keyframes carousel-scroll{
-    from{transform:translateX(0);}
-    to{transform:translateX(-50%);}
+  .carousel-btn{
+    position:absolute; top:50%; transform:translateY(-50%); z-index:2;
+    width:36px; height:36px; border-radius:50%; border:none; cursor:pointer;
+    background:var(--steel-900); color:#fff; font-size:20px; line-height:1;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.25); transition:background .15s, transform .15s;
   }
-  @media (prefers-reduced-motion: reduce){
-    .carousel-track{animation:none;}
-  }
+  .carousel-btn:hover{background:var(--orange); transform:translateY(-50%) scale(1.06);}
+  .carousel-btn.prev{left:-16px;}
+  .carousel-btn.next{right:-16px;}
 
   /* sections generic */
   section{padding:76px 0;}
