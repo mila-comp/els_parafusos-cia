@@ -56,7 +56,7 @@
 
   if (!track || !prevBtn || !nextBtn) return;
 
-  var AUTO_DELAY = 3200;
+  var AUTO_DELAY = 4000;
   var timer = null;
 
   function slideWidth() {
