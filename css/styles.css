@@ -285,14 +285,19 @@
   .about .section-head h2{color:#fff;}
   .about .section-head .eyebrow{color:var(--orange);}
   .about p{color:var(--steel-300); line-height:1.7; font-size:15.5px; margin-bottom:16px;}
-  .badge-decade{
-    display:inline-flex; flex-direction:column; align-items:center; justify-content:center;
-    width:150px; height:150px; border-radius:50%; border:2px dashed var(--orange);
-    text-align:center;
-  }
-  .badge-decade .n{font-family:'Barlow Condensed'; font-weight:800; font-size:52px; color:#fff; line-height:0.9;}
-  .badge-decade .t{font-family:'IBM Plex Mono'; font-size:10px; color:var(--steel-300); text-transform:uppercase; letter-spacing:0.06em; margin-top:6px;}
   .about-visual{display:flex; justify-content:center;}
+  .storefront-photo{
+    position:relative; width:100%; max-width:340px; border-radius:8px; overflow:hidden;
+    box-shadow:0 20px 44px rgba(0,0,0,0.4); border:1px solid #3a444b;
+  }
+  .storefront-photo img{width:100%; height:280px; object-fit:cover; display:block;}
+  .storefront-badge{
+    position:absolute; right:14px; bottom:14px; background:var(--orange); color:#fff;
+    border-radius:6px; padding:10px 14px; text-align:center; line-height:1;
+    box-shadow:0 6px 16px rgba(0,0,0,0.35);
+  }
+  .storefront-badge .n{font-family:'Barlow Condensed'; font-weight:800; font-size:26px; display:block;}
+  .storefront-badge .t{font-family:'IBM Plex Mono'; font-size:9px; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-top:2px;}
   .pillars{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:26px;}
   .pillar{border:1px solid #3a444b; border-radius:5px; padding:14px 16px;}
   .pillar .mono{font-size:10.5px; color:var(--orange); margin-bottom:6px;}
@@ -328,6 +333,11 @@
   footer{background:var(--steel-900); color:var(--steel-300); padding:34px 0 26px;}
   .footer-inner{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;}
   .footer-inner .mono{font-size:11px;}
+  .footer-credit{
+    margin-top:18px; padding-top:16px; border-top:1px solid #2a3238; text-align:center;
+    font-family:'IBM Plex Mono'; font-size:10.5px; color:var(--steel-600); letter-spacing:0.03em;
+  }
+  .footer-credit strong{color:var(--steel-300); font-weight:600;}
   .social{display:flex; gap:12px;}
   .social a{width:34px; height:34px; border-radius:50%; border:1px solid #3a444b; display:flex; align-items:center; justify-content:center; font-size:14px; transition:border-color .15s, color .15s;}
   .social a:hover{border-color:var(--orange); color:var(--orange);}
