@@ -12,24 +12,69 @@
 </head>
 <body>
 
+<svg style="display:none" aria-hidden="true">
+<symbol id="ic-combinada" viewBox="0 0 64 64"><path d="M16 32a10 10 0 1 0 0-.1" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="32" r="4"/><path d="M25 32H40" stroke="currentColor" stroke-width="2.4"/><path d="M40 24H54V40H40Z" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-estrela" viewBox="0 0 64 64"><path d="M32 6 37 20 52 20 40 29 45 44 32 35 19 44 24 29 12 20 27 20Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="32" cy="27" r="5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M32 46V58" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-meialua" viewBox="0 0 64 64"><path d="M14 18a12 12 0 1 1-2 20" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 46 44 12" stroke="currentColor" stroke-width="2.4"/><path d="M40 8 48 16 44 20 36 12Z" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-poligonal" viewBox="0 0 64 64"><circle cx="16" cy="32" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="32" r="3.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 32H36" stroke="currentColor" stroke-width="2.4"/><circle cx="46" cy="32" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="46" cy="32" r="3.5" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-fixa" viewBox="0 0 64 64"><path d="M6 26 14 18 20 24 14 32Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 26H46" stroke="currentColor" stroke-width="2.4"/><path d="M44 20H58V32H44Z" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-canhao" viewBox="0 0 64 64"><path d="M8 24H26V12" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M26 16H46V36H26Z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M36 16V36M46 26H58" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-ajustavel" viewBox="0 0 64 64"><path d="M20 10 44 34" stroke="currentColor" stroke-width="2.4"/><path d="M40 8 52 20 44 28 34 18Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M8 46 18 36 26 44 16 54Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></symbol>
+<symbol id="ic-grifo" viewBox="0 0 64 64"><path d="M8 50 30 28" stroke="currentColor" stroke-width="2.4"/><path d="M26 16 48 8 56 16 48 24 38 24 30 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M38 24a8 8 0 0 0 8 8" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-phillips" viewBox="0 0 64 64"><rect x="12" y="10" width="14" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M19 28V46" stroke="currentColor" stroke-width="2.4"/><path d="M13 46H25M19 40V52" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-fenda" viewBox="0 0 64 64"><rect x="12" y="10" width="14" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M19 28V44" stroke="currentColor" stroke-width="2.4"/><path d="M11 44H27V52H11Z" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-allen" viewBox="0 0 64 64"><path d="M14 50V24H44" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M44 24V14" stroke="currentColor" stroke-width="2.6"/></symbol>
+<symbol id="ic-torx" viewBox="0 0 64 64"><path d="M32 8C36 14 42 14 44 20 50 22 50 28 46 32 50 36 50 42 44 44 42 50 36 50 32 56 28 50 22 50 20 44 14 42 14 36 18 32 14 28 14 22 20 20 22 14 28 14 32 8Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="32" cy="32" r="6" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-biela" viewBox="0 0 64 64"><circle cx="16" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M23 32H41" stroke="currentColor" stroke-width="2.4"/><circle cx="48" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="16" cy="32" r="3"/><circle cx="48" cy="32" r="3"/></symbol>
+<symbol id="ic-parafuso" viewBox="0 0 64 64"><path d="M32 4 44 11V25L32 32 20 25V11Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M32 32V58" stroke="currentColor" stroke-width="2.4"/><path d="M26 38H38M26 44H38M26 50H38" stroke="currentColor" stroke-width="2.2"/></symbol>
+<symbol id="ic-porca" viewBox="0 0 64 64"><path d="M32 8 50 18V38L32 48 14 38V18Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="32" cy="28" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-rod" viewBox="0 0 64 64"><path d="M8 32H56" stroke="currentColor" stroke-width="2.4"/><path d="M14 25V39M20 25V39M26 25V39M32 25V39M38 25V39M44 25V39M50 25V39" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="ic-prego" viewBox="0 0 64 64"><circle cx="18" cy="14" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M22 19 50 47" stroke="currentColor" stroke-width="2.4"/><path d="M50 47 58 52 53 43Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></symbol>
+<symbol id="ic-martelo" viewBox="0 0 64 64"><path d="M8 44 26 26" stroke="currentColor" stroke-width="2.4"/><path d="M22 18 46 42 38 50 14 26Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M34 14 50 30" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-alicate" viewBox="0 0 64 64"><path d="M14 52 28 30" stroke="currentColor" stroke-width="2.4"/><path d="M50 52 36 30" stroke="currentColor" stroke-width="2.4"/><circle cx="32" cy="28" r="4" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M28 30 20 12" stroke="currentColor" stroke-width="2.4"/><path d="M36 30 44 12" stroke="currentColor" stroke-width="2.4"/><path d="M18 14 22 10M46 14 42 10" stroke="currentColor" stroke-width="2.2"/></symbol>
+<symbol id="ic-broca" viewBox="0 0 64 64"><path d="M6 32H14" stroke="currentColor" stroke-width="2.4"/><rect x="20" y="24" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M36 26 56 30V34L36 38Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M42 28V36M48 27V37" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="ic-oculos" viewBox="0 0 64 64"><circle cx="20" cy="32" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="44" cy="32" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M30 30H34" stroke="currentColor" stroke-width="2.4"/><path d="M10 29 4 25M54 29 60 25" stroke="currentColor" stroke-width="2.4"/></symbol>
+<symbol id="ic-luva" viewBox="0 0 64 64"><path d="M22 58V30C22 24 18 22 18 16 18 12 23 11 24 15L25 24V16C25 11 31 11 31 16V24L32 15C33 10 39 11 38 16L37 24C41 22 44 26 42 30V58Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></symbol>
+<symbol id="ic-abafador" viewBox="0 0 64 64"><path d="M12 34a20 20 0 0 1 40 0" fill="none" stroke="currentColor" stroke-width="2.4"/><rect x="6" y="30" width="12" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.4"/><rect x="46" y="30" width="12" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+</svg>
+
 <header>
   <div class="header-inner wrap">
     <div class="brand">
       <img src="images/logo.png" alt="Logo ELS Parafusos & Cia">
       <div class="brand-text">
         <div class="name">Parafusos &amp; Cia</div>
-        <div class="tag">Ferragens · Ferramentas · EPI</div>
+        <div class="tag">Gravataí · RS — 15+ anos</div>
       </div>
     </div>
-    <nav>
-      <a href="#inicio">Início</a>
-      <a href="#produtos">Produtos</a>
-      <a href="#avaliacoes">Avaliações</a>
-      <a href="#quemsomos">Quem Somos</a>
-      <a href="#contato">Contato</a>
-    </nav>
-    <a class="btn btn-orange" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!" target="_blank" rel="noopener"><span class="btn-label-full">Falar no WhatsApp</span><span class="btn-label-short">WhatsApp</span></a>
+    <div class="header-search">
+      <svg class="search-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" id="productSearch" placeholder="Buscar chave, parafuso, broca...">
+    </div>
+    <div class="header-actions">
+      <a class="hdr-link" href="https://www.instagram.com/elsparafusosecia/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        <span>Instagram</span>
+      </a>
+      <a class="hdr-link" href="https://www.google.com/maps/place/ELS+Parafusos+%26+Cia/@-29.9188697,-51.0486614,17z/data=!3m1!4b1!4m6!3m5!1s0x95190cd049459467:0x57ce6eb8955e0002!8m2!3d-29.9188697!4d-51.0486614" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-7.4 7-12a7 7 0 1 0-14 0c0 4.6 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        <span>Localização</span>
+      </a>
+      <a class="btn btn-wa-hdr" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" width="15" height="15" fill="currentColor"><path d="M16.004 3C9.377 3 4 8.373 4 15c0 2.386.703 4.605 1.912 6.47L4 29l7.72-1.877A11.94 11.94 0 0 0 16.004 27C22.63 27 28 21.627 28 15S22.63 3 16.004 3zm6.983 16.86c-.3.84-1.5 1.55-2.44 1.75-.66.14-1.52.25-4.42-.95-3.71-1.54-6.1-5.3-6.29-5.55-.18-.25-1.51-2.01-1.51-3.83 0-1.82.95-2.72 1.29-3.09.3-.33.7-.4.93-.4.23 0 .46 0 .66.01.21.01.5-.08.78.6.3.72 1 2.5 1.09 2.68.09.18.15.39.03.63-.12.24-.18.39-.36.6-.18.21-.38.47-.54.63-.18.18-.37.37-.16.72.21.35.94 1.55 2.02 2.51 1.39 1.24 2.56 1.63 2.91 1.81.35.18.56.15.77-.09.21-.24.9-1.05 1.14-1.41.24-.36.48-.3.8-.18.33.12 2.1 .99 2.46 1.17.36.18.6.27.69.42.09.15.09.85-.21 1.69z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <button class="btn btn-orange cart-toggle" id="cartToggle" aria-label="Abrir cotação">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 2-1.6L22 8H6"/><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></svg>
+        <span class="btn-label-full">Cotação</span>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+    </div>
     <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
+  </div>
+  <div class="header-search header-search-mobile">
+    <svg class="search-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" id="productSearchMobile" placeholder="Buscar chave, parafuso, broca...">
   </div>
   <nav class="mobile-nav" id="mobileNav">
     <a href="#inicio">Início</a>
@@ -37,6 +82,7 @@
     <a href="#avaliacoes">Avaliações</a>
     <a href="#quemsomos">Quem Somos</a>
     <a href="#contato">Contato</a>
+    <a href="https://www.instagram.com/elsparafusosecia/" target="_blank" rel="noopener">Instagram</a>
   </nav>
 </header>
 
@@ -100,322 +146,95 @@
 
 <div class="thread orange"></div>
 
-<section class="categories" id="categorias">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">O que temos</div>
-      <h2>Cada gaveta, uma categoria</h2>
-      <p>Do parafuso mais simples ao equipamento de proteção — organizado pra você achar rápido.</p>
-    </div>
-    <div class="cat-grid">
-      <div class="cat-card"><div class="drawer-handle"></div><div class="num">01</div><h3>Parafusos e Porcas</h3>
-        <div class="icon-tile"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 8 L28 8 L28 14 L34 20 L34 44 L28 50 L28 56 L20 56 L20 50 L14 44 L14 20 L20 14 Z"/><path d="M14 22 H34 M14 42 H34"/><circle cx="48" cy="34" r="12"/><path d="M40 34 h4 M56 34 h4 M42.3 25.7 l2.8 2.8 M53 40 l2.8 2.8 M42.3 42.3 l2.8 -2.8 M53 28 l2.8 -2.8"/></svg></div>
-      </div>
-      <div class="cat-card"><div class="drawer-handle"></div><div class="num">02</div><h3>Pregos e Martelo</h3>
-        <div class="icon-tile"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 44 L26 26"/><path d="M22 18 L46 42 L38 50 L14 26 Z"/><path d="M34 14 L50 30"/><path d="M14 50 L10 58 M20 50 L24 58" stroke-width="2"/></svg></div>
-      </div>
-      <div class="cat-card"><div class="drawer-handle"></div><div class="num">03</div><h3>Chaves e Acessórios</h3>
-        <div class="icon-tile"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M44 8 a10 10 0 1 0 8 16 L54 46 L46 54 L38 46 L46 38 L30 22 a10 10 0 0 0 -1.2 -1.5"/><circle cx="44" cy="18" r="4"/></svg></div>
-      </div>
-      <div class="cat-card"><div class="drawer-handle"></div><div class="num">04</div><h3>Ferramentas</h3>
-        <div class="icon-tile"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="26" width="44" height="26" rx="3"/><path d="M20 26 v-6 a4 4 0 0 1 4 -4 h16 a4 4 0 0 1 4 4 v6"/><path d="M10 36 h44"/><path d="M28 36 v10 M36 36 v10"/></svg></div>
-      </div>
-      <div class="cat-card"><div class="drawer-handle"></div><div class="num">05</div><h3>Brocas</h3>
-        <div class="icon-tile"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 32 h14"/><rect x="20" y="24" width="16" height="16" rx="2"/><path d="M36 26 L56 30 L56 34 L36 38 Z"/><path d="M42 28 v8 M48 27 v10"/></svg></div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="products" id="produtos">
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Catálogo</div>
-      <h2>Chaves Tramontina Pro e Gedore</h2>
-      <p>Catálogo completo de chaves em estoque. Clique em "Ver medidas" pra conferir as especificações técnicas de cada modelo, ou peça o orçamento direto no WhatsApp.</p>
+      <h2>Catálogo completo de produtos</h2>
+      <p>Chaves profissionais Tramontina Pro e Gedore, parafusos, porcas, pregos, ferramentas manuais, brocas e EPIs. Filtre por categoria ou marca, veja a ficha técnica completa e monte sua cotação.</p>
     </div>
-    <div class="catalog-brand">
-      <h3>Tramontina Pro</h3>
-      <div class="catalog-grid">
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-combinada-tramontina-pro.png" alt="Chave combinada Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave combinada</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFU7qZ6cFE/8Wt0_WnL925oqTf66zTLzQ/view?utm_content=DAFU7qZ6cFE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20combinada%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-estrela-tramontina-pro.png" alt="Chave estrela Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave estrela</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFU74VpD18/Ly94GQFk05F3U2KyiYRyyA/view?utm_content=DAFU74VpD18&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20estrela%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-meia-lua-tramontina-pro.png" alt="Chave meia lua Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave meia lua</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFU8KQw0Fs/EbwLC94IKZyPgTPuBOr2Rg/view?utm_content=DAFU8KQw0Fs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20meia%20lua%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-poligonal-tramontina-pro.png" alt="Chave poligonal Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave poligonal</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFU8LVjTRE/Q93RKSFzTWjgpgf3TdQ6iw/view?utm_content=DAFU8LVjTRE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20poligonal%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-fixa-tramontina-pro.png" alt="Chave fixa Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave fixa</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVKRBbLlg/gF3tWXj_T7zoOGD6S4HFtA/view?utm_content=DAFVKRBbLlg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20fixa%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-grifo-tramontina-pro.png" alt="Chave grifo Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave grifo</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVOpQj1Tg/ow4mQiBxTslu30XZYFXelw/view?utm_content=DAFVOpQj1Tg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20grifo%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-ajustavel-tramontina-pro.png" alt="Chave ajustável Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave ajustável</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVTOd4Klo/QKgLBKBlAGZ6W6IZFyPfjQ/view?utm_content=DAFVTOd4Klo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20ajust%C3%A1vel%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-biela-tramontina-pro.png" alt="Chave biela Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave biela</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVTLTsATY/MboGZ1lahbgOm8ZkfDDxIw/view?utm_content=DAFVTLTsATY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20biela%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-phillips-verde-tramontina-pro.png" alt="Chave phillips verde Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave phillips verde</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVOv3OHdA/JSp14pha6IrWInyJiqHocQ/view?utm_content=DAFVOv3OHdA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20phillips%20verde%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-phillips-laranja-tramontina-pro.png" alt="Chave phillips laranja Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave phillips laranja</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVZrFcXGk/PhSf7zFtpP1Rwd2Udguv4Q/view?utm_content=DAFVZrFcXGk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20phillips%20laranja%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-canhao-tramontina-pro.png" alt="Chave canhão Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave canhão</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVOizx2so/nByP7kjG_DyfW7nCHvlUpA/view?utm_content=DAFVOizx2so&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20canh%C3%A3o%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-phillips-verde-isolada-tramontina-pro.png" alt="Chave phillips verde isolada Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave phillips verde isolada</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVOUVhQg4/yv0OJ8tmoUQ8Ise0GyqIJA/view?utm_content=DAFVOUVhQg4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20phillips%20verde%20isolada%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-fenda-verde-isolada-tramontina-pro.png" alt="Chave fenda verde isolada Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave fenda verde isolada</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVOdScqeA/cqThg1arKiqipTcMR_dlag/view?utm_content=DAFVOdScqeA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20fenda%20verde%20isolada%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-fenda-laranja-tramontina.png" alt="Chave fenda laranja Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave fenda laranja</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVKdLJEes/bDodcn3gnl4wvWjjXVFfXw/view?utm_content=DAFVKdLJEes&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20fenda%20laranja%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-allen-tramontina-pro.png" alt="Chave allen Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave allen</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFaMaB2piE/8_MsLysjjm5xGpSwdEtf3w/view?utm_content=DAFaMaB2piE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20allen%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/tramontina-chave-torx-tramontina-pro.png" alt="Chave torx Tramontina Pro" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave torx</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFaMdMQIhc/PxDWTWAtm7fbPDxvG28Znw/view?utm_content=DAFaMdMQIhc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20torx%20Tramontina%20Pro." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
+
+    <div class="filters-bar">
+      <div class="cat-chips" id="catChips"></div>
+      <div class="filters-row2">
+        <span class="filters-lbl">Marca:</span>
+        <div class="brand-chips" id="brandChips"></div>
+        <div class="item-count" id="itemCount"></div>
       </div>
     </div>
-    <div class="catalog-brand">
-      <h3>Gedore</h3>
-      <div class="catalog-grid">
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-combinada-gedore.png" alt="Chave combinada Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave combinada</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVTd-OvgE/vRZPDKmC-IW8pebTofhLVQ/view?utm_content=DAFVTd-OvgE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20combinada%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-fixa-gedore.png" alt="Chave fixa Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave fixa</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVThQpxNc/cwuccfGHUoxD1IxrhhuS_A/view?utm_content=DAFVThQpxNc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20fixa%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-meia-lua-gedore.png" alt="Chave meia lua Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave meia lua</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVUKxRSZM/oEqHC5edb7uMtS4Axvxgug/view?utm_content=DAFVUKxRSZM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20meia%20lua%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-biela-gedore.png" alt="Chave biela Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave biela</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVUYuBHwA/Epn0_8KprXOvybfI0ItITQ/view?utm_content=DAFVUYuBHwA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20biela%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-canhao-gedore.png" alt="Chave canhão Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave canhão</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVZB7NifQ/LcQJMtsTIyqi9ObIQHGOYA/view?utm_content=DAFVZB7NifQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20canh%C3%A3o%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-phillips-gedore.png" alt="Chave phillips Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave phillips</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVZIOyQes/DQMYElYQQtc1dy0wAHDLrw/view?utm_content=DAFVZIOyQes&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20phillips%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-de-fenda-gedore.png" alt="Chave de fenda Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave de fenda</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVZb4fIOo/FjWayvs7Q9-qZdRDOa2b7g/view?utm_content=DAFVZb4fIOo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20de%20fenda%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-de-fenda-isolada-gedore.png" alt="Chave de fenda isolada Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave de fenda isolada</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVZtfXiho/6_4JtNVKL7L8u4mM1UtQXw/view?utm_content=DAFVZtfXiho&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20de%20fenda%20isolada%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-phillips-isolada-gedore.png" alt="Chave phillips isolada Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave phillips isolada</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFVZnc5n-E/gliXTMrOnJb7zXi_KqgcRQ/view?utm_content=DAFVZnc5n-E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20phillips%20isolada%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-allen-gedore.png" alt="Chave allen Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave allen</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFnUk6RnbI/J0VWWH8jIEih16loSDhKFQ/view?utm_content=DAFnUk6RnbI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20allen%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      <div class="catalog-item">
-        <div class="cat-img"><img src="images/produtos/gedore-chave-torx-gedore.png" alt="Chave torx Gedore" loading="lazy"></div>
-        <div class="info">
-          <h4>Chave torx</h4>
-          <div class="actions">
-            <a href="https://www.canva.com/design/DAFnUly1zg0/eMlEewuuGh-V0pY-EULBaA/view?utm_content=DAFnUly1zg0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener">Ver medidas</a>
-            <a class="wa" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Chave%20torx%20Gedore." target="_blank" rel="noopener">Orçamento</a>
-          </div>
-        </div>
-      </div>
-      </div>
+
+    <div class="product-grid" id="productGrid"></div>
+
+    <div class="custom-cta">
+      <h3>Precisa de um item ou medida sob encomenda?</h3>
+      <p>Fale com a gente — a Parafusos &amp; Cia tem acesso a diversos fornecedores e consegue buscar itens fora do catálogo.</p>
+      <a class="btn btn-orange" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20preciso%20de%20um%20item%20ou%20medida%20que%20n%C3%A3o%20encontrei%20no%20cat%C3%A1logo." target="_blank" rel="noopener">Falar com um consultor</a>
     </div>
   </div>
 </section>
+
+<!-- Modal de ficha técnica do produto -->
+<div class="modal-overlay-bg" id="productModal">
+  <div class="modal-box">
+    <button class="modal-close" aria-label="Fechar">×</button>
+    <div class="modal-grid">
+      <div class="modal-media-wrap">
+        <div class="modal-media"></div>
+      </div>
+      <div class="modal-info">
+        <div class="modal-top">
+          <span class="pc-brand modal-brand"></span>
+          <span class="modal-cat"></span>
+        </div>
+        <h3 class="modal-title"></h3>
+        <p class="modal-desc"></p>
+
+        <div class="modal-size-block">
+          <div class="modal-size-head">Escolha a medida / tamanho: <strong class="modal-size-current"></strong></div>
+          <div class="modal-sizes"></div>
+        </div>
+
+        <div class="modal-qty-block">
+          <span>Quantidade para orçamento:</span>
+          <div class="qty-stepper">
+            <button class="modal-qty-minus" aria-label="Diminuir">−</button>
+            <span class="modal-qty">1</span>
+            <button class="modal-qty-plus" aria-label="Aumentar">+</button>
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button class="btn btn-dark modal-add-cart">+ Adicionar à Cotação</button>
+          <button class="btn btn-wa-hdr modal-wa">Cotar no WhatsApp</button>
+        </div>
+
+        <div class="modal-specs">
+          <div class="modal-specs-title">Especificações técnicas</div>
+          <div class="modal-specs-grid">
+            <div><span class="pc-lbl">Material / Forjamento</span><span class="modal-material"></span></div>
+            <div><span class="pc-lbl">Norma técnica</span><span class="modal-norma"></span></div>
+          </div>
+          <p class="modal-disclaimer">Medidas e especificações de referência — confirme disponibilidade exata com nossos consultores antes da compra.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Carrinho de cotação -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-head">
+    <h3>Minha Cotação</h3>
+    <button id="cartClose" aria-label="Fechar carrinho">×</button>
+  </div>
+  <div class="cart-body" id="cartBody"></div>
+  <div class="cart-foot">
+    <button class="btn btn-wa-hdr cart-send" id="cartSendBtn">Enviar cotação pelo WhatsApp</button>
+  </div>
+</aside>
+
 
 <section class="reviews" id="avaliacoes">
   <div class="wrap">
@@ -429,35 +248,47 @@
         <div class="g-icon">G</div>
         <div>
           <div class="stars">★★★★★</div>
-          <div class="g-sub">Baseado em 20 avaliações no Google</div>
+          <div class="g-sub">4,8 de 5 · Baseado em 28 avaliações no Google</div>
         </div>
       </div>
     </div>
     <div class="review-grid">
       <div class="review-quote">
         <span class="mark">"</span>
-        <p>Um fornecedor muito bom de parafusos.</p>
+        <p>Excelente atendimento, grande variedade de produtos, ótima loja!</p>
         <div class="who">
-          <div class="avatar">BC</div>
+          <div class="avatar">PS</div>
           <div>
-            <div class="name">Bernhard Classen</div>
-            <div class="src">Avaliação verificada no Google</div>
+            <div class="name">Pedro Sandrin</div>
+            <div class="src">Local Guide · Google</div>
           </div>
         </div>
       </div>
-      <div class="review-list">
-        <div class="lbl">Outros clientes que avaliaram</div>
-        <div class="reviewer-chip"><div class="av">FS</div><div class="info"><span class="n">Francisco Silva</span><span class="s">Google</span></div></div>
-        <div class="reviewer-chip"><div class="av">RS</div><div class="info"><span class="n">Roger Da Silva</span><span class="s">Google</span></div></div>
-        <div class="reviewer-chip"><div class="av">JP</div><div class="info"><span class="n">Jeferson T. Paier</span><span class="s">Google</span></div></div>
-        <div class="reviewer-chip"><div class="av">J</div><div class="info"><span class="n">Jadson</span><span class="s">Google</span></div></div>
-        <div class="reviewer-chip"><div class="av">ÉF</div><div class="info"><span class="n">Éder Fonseca</span><span class="s">Google</span></div></div>
-        <div class="reviewer-chip"><div class="av">RG</div><div class="info"><span class="n">Rogério Gasparini</span><span class="s">Google</span></div></div>
-        <div class="reviewer-chip"><div class="av">OR</div><div class="info"><span class="n">Oseias Rosa</span><span class="s">Google</span></div></div>
+      <div class="review-quote">
+        <span class="mark">"</span>
+        <p>Tudo que você precisa em relação a parafusos você encontra ali, e diversas ferramentas.</p>
+        <div class="who">
+          <div class="avatar">VS</div>
+          <div>
+            <div class="name">Valdemar Souza</div>
+            <div class="src">Local Guide · Google</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-quote">
+        <span class="mark">"</span>
+        <p>Um fornecedor muito bom de parafusos.</p>
+        <div class="who">
+          <div class="avatar">JB</div>
+          <div>
+            <div class="name">Jadson Butzk</div>
+            <div class="src">Local Guide · Google</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="see-all">
-      <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Els+Parafusos+e+Cia+Gravata%C3%AD+RS" target="_blank" rel="noopener">Ver todas as avaliações no Google</a>
+      <a class="btn btn-outline" href="https://www.google.com/maps/place/ELS+Parafusos+%26+Cia/@-29.9188697,-51.0486614,17z/data=!3m1!4b1!4m6!3m5!1s0x95190cd049459467:0x57ce6eb8955e0002!8m2!3d-29.9188697!4d-51.0486614" target="_blank" rel="noopener">Ver todas as avaliações no Google</a>
     </div>
   </div>
 </section>
@@ -518,8 +349,16 @@
           <div><div class="lbl">WhatsApp</div><div class="val"><a href="https://wa.me/5551998177556" target="_blank" rel="noopener">(51) 99817-7556</a></div></div>
         </div>
         <div class="info-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></div>
+          <div><div class="lbl">Instagram</div><div class="val"><a href="https://www.instagram.com/elsparafusosecia/" target="_blank" rel="noopener">@elsparafusosecia</a></div></div>
+        </div>
+        <div class="info-row">
           <div class="ic">✉</div>
           <div><div class="lbl">E-mail</div><div class="val"><a href="mailto:1001parafusos@gmail.com">1001parafusos@gmail.com</a></div></div>
+        </div>
+        <div class="info-row">
+          <div class="ic">🕐</div>
+          <div><div class="lbl">Horário</div><div class="val" style="font-size:13.5px;">Seg a Sex: 08h–18h<br>Sábado: 08h–12h</div></div>
         </div>
       </div>
       <div class="map-wrap">
@@ -535,7 +374,7 @@
       <div class="mono">© 2026 ELS Parafusos &amp; Cia — Gravataí, RS</div>
       <div class="social">
         <a href="#" aria-label="Facebook" target="_blank" rel="noopener">f</a>
-        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">ig</a>
+        <a href="https://www.instagram.com/elsparafusosecia/" aria-label="Instagram" target="_blank" rel="noopener">ig</a>
       </div>
     </div>
     <div class="footer-credit">Desenvolvido por <strong>Kamilah S Sites</strong></div>
@@ -544,6 +383,8 @@
 
 <a class="wa-float" href="https://wa.me/5551998177556?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 32 32" width="30" height="30" fill="#fff"><path d="M16.004 3C9.377 3 4 8.373 4 15c0 2.386.703 4.605 1.912 6.47L4 29l7.72-1.877A11.94 11.94 0 0 0 16.004 27C22.63 27 28 21.627 28 15S22.63 3 16.004 3zm6.983 16.86c-.3.84-1.5 1.55-2.44 1.75-.66.14-1.52.25-4.42-.95-3.71-1.54-6.1-5.3-6.29-5.55-.18-.25-1.51-2.01-1.51-3.83 0-1.82.95-2.72 1.29-3.09.3-.33.7-.4.93-.4.23 0 .46 0 .66.01.21.01.5-.08.78.6.3.72 1 2.5 1.09 2.68.09.18.15.39.03.63-.12.24-.18.39-.36.6-.18.21-.38.47-.54.63-.18.18-.37.37-.16.72.21.35.94 1.55 2.02 2.51 1.39 1.24 2.56 1.63 2.91 1.81.35.18.56.15.77-.09.21-.24.9-1.05 1.14-1.41.24-.36.48-.3.8-.18.33.12 2.1 .99 2.46 1.17.36.18.6.27.69.42.09.15.09.85-.21 1.69z"/></svg></a>
 
+<script src="js/products-data.js"></script>
+<script src="js/catalog.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
