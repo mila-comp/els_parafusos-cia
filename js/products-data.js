@@ -1018,5 +1018,293 @@ window.ELS_PRODUCTS = [
     "badge2": null,
     "hasPhoto": false,
     "image": null
+  },
+  {
+    "id": "fix-parafuso-madeira",
+    "category": "parafusos",
+    "categoryLabel": "Parafusos e Porcas",
+    "brand": "ELS Fixadores",
+    "name": "Parafuso para Madeira Cabeça Chata",
+    "desc": "Parafuso com rosca soberba e cabeça chata fenda simples, indicado para fixações em madeira maciça e MDF.",
+    "material": "Aço carbono zincado",
+    "norma": "DIN 97",
+    "sizes": [
+      "3,5x30mm",
+      "4x40mm",
+      "4,5x50mm",
+      "5x60mm",
+      "6x70mm",
+      "6x80mm"
+    ],
+    "icon": "parafuso",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "fix-porca-borboleta",
+    "category": "parafusos",
+    "categoryLabel": "Parafusos e Porcas",
+    "brand": "ELS Fixadores",
+    "name": "Porca Borboleta (Asa)",
+    "desc": "Porca com abas laterais para aperto e remoção manual, sem necessidade de ferramenta, usada em fixações provisórias.",
+    "material": "Aço carbono zincado",
+    "norma": "DIN 315",
+    "sizes": [
+      "M4",
+      "M5",
+      "M6",
+      "M8",
+      "M10"
+    ],
+    "icon": "porca-borboleta",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "broca-jogo-machos",
+    "category": "brocas",
+    "categoryLabel": "Brocas & Perfuração",
+    "brand": "ELS Ferramentas",
+    "name": "Jogo de Machos e Cossinetes para Roscar",
+    "desc": "Kit completo pra abrir e recuperar roscas internas e externas em aço, alumínio e ferro fundido.",
+    "material": "Aço HSS (aço rápido)",
+    "norma": "DIN 352 / DIN 2181",
+    "sizes": [
+      "M3",
+      "M4",
+      "M5",
+      "M6",
+      "M8",
+      "M10",
+      "M12"
+    ],
+    "icon": "broca",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "disco-corte-inox",
+    "category": "brocas",
+    "categoryLabel": "Brocas & Perfuração",
+    "brand": "ELS Ferramentas",
+    "name": "Disco de Corte para Aço e Inox",
+    "desc": "Disco abrasivo fino para corte de metais em geral e aço inoxidável, uso em esmerilhadeiras angulares.",
+    "material": "Óxido de alumínio com reforço de fibra de vidro",
+    "norma": "EN 12413 / ISO 603",
+    "sizes": [
+      "4.1/2\" x 1,0mm",
+      "4.1/2\" x 1,6mm",
+      "7\" x 1,6mm",
+      "7\" x 2,0mm"
+    ],
+    "icon": "disco-corte",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "ferr-jogo-soquetes-gedore",
+    "category": "ferramentas",
+    "categoryLabel": "Ferramentas Manuais",
+    "brand": "Gedore",
+    "name": "Jogo de Soquetes e Chaves Gedore (1/4\")",
+    "desc": "Kit Gedore com catraca, soquetes, chaves de fenda e phillips intercambiáveis em maleta organizadora.",
+    "material": "Aço Gedore-Vanadium cromado",
+    "norma": "DIN 3120 / ISO 1174",
+    "sizes": [
+      "1/4\" — 38 peças"
+    ],
+    "icon": "jogo-soquetes",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "ferr-caixa-ferramentas",
+    "category": "ferramentas",
+    "categoryLabel": "Ferramentas Manuais",
+    "brand": "ELS Ferramentas",
+    "name": "Caixa de Ferramentas Plástica Reforçada",
+    "desc": "Caixa organizadora com bandeja removível, travas metálicas e alça reforçada para transporte de ferramentas.",
+    "material": "Polipropileno de alto impacto",
+    "norma": "—",
+    "sizes": [
+      "16\"",
+      "19\"",
+      "22\""
+    ],
+    "icon": "caixa-ferramentas",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "ind-mangueira-hidraulica",
+    "category": "industrial",
+    "categoryLabel": "Cabos, Correntes & Solda",
+    "brand": "ELS Ferramentas",
+    "name": "Mangueira Hidráulica de Alta Pressão",
+    "desc": "Mangueira hidráulica de duas tramas de aço para sistemas de alta pressão, com jaqueta resistente à abrasão.",
+    "material": "Borracha sintética com trama de aço",
+    "norma": "DIN EN 856 / ISO 3862",
+    "sizes": [
+      "1/4\"",
+      "3/8\"",
+      "1/2\"",
+      "5/8\"",
+      "3/4\""
+    ],
+    "icon": "mangueira",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "ind-cabo-aco",
+    "category": "industrial",
+    "categoryLabel": "Cabos, Correntes & Solda",
+    "brand": "ELS Ferramentas",
+    "name": "Cabo de Aço com Gancho",
+    "desc": "Cabo de aço torcido com lingas em U (sapatilho) nas pontas, usado em içamento e fixação de cargas.",
+    "material": "Aço galvanizado 6x19",
+    "norma": "ISO 2408 / DIN 3055",
+    "sizes": [
+      "6mm",
+      "8mm",
+      "10mm",
+      "12mm"
+    ],
+    "icon": "cabo-aco",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "ind-corrente",
+    "category": "industrial",
+    "categoryLabel": "Cabos, Correntes & Solda",
+    "brand": "ELS Ferramentas",
+    "name": "Corrente de Aço Galvanizada",
+    "desc": "Corrente de elos soldados para tração, amarração de cargas e uso geral em obras e propriedades.",
+    "material": "Aço carbono galvanizado",
+    "norma": "DIN 766 / DIN 5685",
+    "sizes": [
+      "5mm",
+      "6mm",
+      "8mm",
+      "10mm"
+    ],
+    "icon": "corrente",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "ind-eletrodo",
+    "category": "industrial",
+    "categoryLabel": "Cabos, Correntes & Solda",
+    "brand": "ELS Ferramentas",
+    "name": "Eletrodo de Solda Revestido",
+    "desc": "Eletrodo revestido de uso geral para solda de aço carbono em estruturas, serralheria e manutenção.",
+    "material": "Aço com revestimento celulósico/rutílico",
+    "norma": "AWS E6013 / E7018",
+    "sizes": [
+      "2,50mm",
+      "3,25mm",
+      "4,00mm",
+      "5,00mm"
+    ],
+    "icon": "eletrodo",
+    "badge": null,
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "epi-capacete",
+    "category": "epi",
+    "categoryLabel": "Equipamentos de Proteção",
+    "brand": "Linha EPI",
+    "name": "Capacete de Segurança com Carneira",
+    "desc": "Capacete de proteção contra impactos na cabeça, com carneira ajustável e absorção de energia.",
+    "material": "Polietileno de alta densidade (PEAD)",
+    "norma": "ABNT NBR 8221 / CA Aprovado",
+    "sizes": [
+      "Único (ajustável)"
+    ],
+    "icon": "capacete",
+    "badge": "Com C.A. Aprovado",
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "epi-protetor-plug",
+    "category": "epi",
+    "categoryLabel": "Equipamentos de Proteção",
+    "brand": "Linha EPI",
+    "name": "Protetor Auricular Tipo Plug",
+    "desc": "Protetor auricular de espuma moldável para redução de ruído em ambientes industriais.",
+    "material": "Espuma de poliuretano",
+    "norma": "ANSI S3.19 / CA Aprovado",
+    "sizes": [
+      "Único"
+    ],
+    "icon": "protetor-plug",
+    "badge": "Com C.A. Aprovado",
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "epi-mascara-pff2",
+    "category": "epi",
+    "categoryLabel": "Equipamentos de Proteção",
+    "brand": "Linha EPI",
+    "name": "Máscara Respiratória Descartável PFF2",
+    "desc": "Máscara semifacial descartável com filtro para partículas, poeiras e névoas, indicada para ambientes com material particulado.",
+    "material": "TNT com camada filtrante eletrostática",
+    "norma": "ABNT NBR 13698 / CA Aprovado",
+    "sizes": [
+      "Único"
+    ],
+    "icon": "mascara-pff2",
+    "badge": "Com C.A. Aprovado",
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "epi-cinto-seguranca",
+    "category": "epi",
+    "categoryLabel": "Equipamentos de Proteção",
+    "brand": "Linha EPI",
+    "name": "Cinto de Segurança Tipo Paraquedista",
+    "desc": "Cinturão de segurança com talabarte, para trabalho em altura, com fivelas reguláveis e argola dorsal.",
+    "material": "Poliéster com ferragens em aço",
+    "norma": "NR-35 / CA Aprovado",
+    "sizes": [
+      "M/G (ajustável)"
+    ],
+    "icon": "cinto-seguranca",
+    "badge": "Com C.A. Aprovado",
+    "badge2": null,
+    "hasPhoto": false
+  },
+  {
+    "id": "epi-mascara-solda",
+    "category": "epi",
+    "categoryLabel": "Equipamentos de Proteção",
+    "brand": "Linha EPI",
+    "name": "Máscara de Solda com Visor",
+    "desc": "Máscara de proteção facial para soldagem, com lente de escurecimento e proteção contra respingos e radiação.",
+    "material": "Fibra vulcanizada / policarbonato",
+    "norma": "ABNT NBR 6026 / CA Aprovado",
+    "sizes": [
+      "Único (ajustável)"
+    ],
+    "icon": "mascara-solda",
+    "badge": "Com C.A. Aprovado",
+    "badge2": null,
+    "hasPhoto": false
   }
 ];

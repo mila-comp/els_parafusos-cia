@@ -38,13 +38,14 @@
   var cart = loadCart();
 
   // ---------- Categorias / Marcas (derivadas do catálogo) ----------
-  var CATEGORY_ORDER = ['chaves', 'parafusos', 'pregos', 'ferramentas', 'brocas', 'epi'];
+  var CATEGORY_ORDER = ['chaves', 'parafusos', 'pregos', 'ferramentas', 'brocas', 'industrial', 'epi'];
   var CATEGORY_LABELS = {
     chaves: 'Chaves Profissionais',
     parafusos: 'Parafusos e Porcas',
     pregos: 'Pregos e Martelo',
     ferramentas: 'Ferramentas Manuais',
     brocas: 'Brocas e Corte',
+    industrial: 'Cabos, Correntes & Solda',
     epi: 'Linha EPI'
   };
   var BRAND_ORDER = ['Tramontina Pro', 'Gedore', 'ELS Fixadores', 'ELS Ferramentas', 'Linha EPI'];
