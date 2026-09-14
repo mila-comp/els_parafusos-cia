@@ -140,6 +140,54 @@
     }).join('');
   }
 
+  // ---------- Card de produto em destaque (hero) ----------
+  var FEATURED_IDS = ['tram-combinada','ged-combinada','tram-fenda-isolada','ged-fenda-isolada','fix-autobrocante','broca-concreto','epi-luva','fix-inox'];
+  var featured = FEATURED_IDS.map(function (id) {
+    return PRODUCTS.filter(function (p) { return p.id === id; })[0];
+  }).filter(Boolean);
+  var featIndex = 0;
+  var featTimer = null;
+
+  function featMedia(p) {
+    if (p.hasPhoto && p.image) return '<img src="' + p.image + '" alt="' + esc(p.name) + '">';
+    return '<svg class="prod-icon"><use href="#ic-' + p.icon + '"></use></svg>';
+  }
+
+  function renderFeatured() {
+    if (!featured.length) return;
+    var p = featured[featIndex];
+    var card = document.getElementById('featCard');
+    card.innerHTML =
+      '<div class="feat-top">' +
+        '<span class="feat-badge-brand">' + esc(p.brand) + '</span>' +
+        '<span class="feat-badge-stock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Pronta Entrega</span>' +
+      '</div>' +
+      '<div class="feat-photo">' + featMedia(p) + '</div>' +
+      '<div class="feat-cat">' + esc(p.categoryLabel) + '</div>' +
+      '<h3 class="feat-name">' + esc(p.name) + '</h3>' +
+      '<p class="feat-desc">' + esc(p.desc) + '</p>' +
+      '<div class="feat-actions">' +
+        '<button class="btn btn-dark feat-view" data-id="' + p.id + '">Ver medidas &amp; ficha</button>' +
+        '<button class="btn btn-orange feat-orcar" data-id="' + p.id + '">Orçar</button>' +
+      '</div>';
+
+    var dots = document.getElementById('featDots');
+    dots.innerHTML = featured.map(function (_, i) {
+      return '<button class="' + (i === featIndex ? 'active' : '') + '" data-i="' + i + '" aria-label="Ir para destaque ' + (i + 1) + '"></button>';
+    }).join('');
+
+    document.getElementById('featCounter').textContent = (featIndex + 1) + ' de ' + featured.length + ' em destaque';
+  }
+
+  function featGoTo(i) {
+    featIndex = (i + featured.length) % featured.length;
+    renderFeatured();
+  }
+  function featNext() { featGoTo(featIndex + 1); }
+  function featPrev() { featGoTo(featIndex - 1); }
+  function featStartAuto() { featStopAuto(); featTimer = setInterval(featNext, 5000); }
+  function featStopAuto() { if (featTimer) clearInterval(featTimer); featTimer = null; }
+
   // ---------- Modal de produto ----------
   var modalState = { product: null, size: null, qty: 1 };
 
@@ -264,6 +312,29 @@
     renderGrid();
     updateCartBadge();
     renderCartDrawer();
+
+    renderFeatured();
+    document.getElementById('featPrev').addEventListener('click', function () { featPrev(); featStartAuto(); });
+    document.getElementById('featNext').addEventListener('click', function () { featNext(); featStartAuto(); });
+    document.getElementById('featDots').addEventListener('click', function (e) {
+      var b = e.target.closest('button');
+      if (!b) return;
+      featGoTo(parseInt(b.getAttribute('data-i'), 10));
+      featStartAuto();
+    });
+    document.getElementById('featCard').addEventListener('click', function (e) {
+      var view = e.target.closest('.feat-view');
+      var orcar = e.target.closest('.feat-orcar');
+      if (view) openModal(view.getAttribute('data-id'));
+      if (orcar) {
+        var p = featured[featIndex];
+        var msg = 'Olá! Tenho interesse em: ' + p.name + ' (' + p.brand + ').';
+        window.open(waLink(msg), '_blank', 'noopener');
+      }
+    });
+    document.getElementById('featCard').addEventListener('mouseenter', featStopAuto);
+    document.getElementById('featCard').addEventListener('mouseleave', featStartAuto);
+    featStartAuto();
 
     document.getElementById('catChips').addEventListener('click', function (e) {
       var btn = e.target.closest('.cat-chip');
