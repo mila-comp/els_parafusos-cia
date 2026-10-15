@@ -715,8 +715,8 @@ window.ELS_PRODUCTS = [
     "icon": "parafuso",
     "badge": "Alta Resistência",
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/fix-parafuso-88.webp"
   },
   {
     "id": "fix-parafuso-allen",
@@ -734,8 +734,8 @@ window.ELS_PRODUCTS = [
     "icon": "parafuso",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/fix-parafuso-allen.webp"
   },
   {
     "id": "fix-autobrocante",
@@ -756,8 +756,8 @@ window.ELS_PRODUCTS = [
     "icon": "parafuso",
     "badge": "Construção & Serralheria",
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/fix-autobrocante.webp"
   },
   {
     "id": "fix-inox",
@@ -775,8 +775,8 @@ window.ELS_PRODUCTS = [
     "icon": "parafuso",
     "badge": "Aço Inox Anti-Ferrugem",
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/fix-inox.webp"
   },
   {
     "id": "fix-porca-nylon",
@@ -805,8 +805,8 @@ window.ELS_PRODUCTS = [
     "icon": "porca",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/fix-porca-nylon.webp"
   },
   {
     "id": "fix-barra-roscada",
@@ -835,8 +835,8 @@ window.ELS_PRODUCTS = [
     "icon": "rod",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/fix-barra-roscada.webp"
   },
   {
     "id": "prego-construcao",
@@ -861,8 +861,8 @@ window.ELS_PRODUCTS = [
     "icon": "prego",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/prego-construcao.webp"
   },
   {
     "id": "martelo-fibra",
@@ -882,8 +882,8 @@ window.ELS_PRODUCTS = [
     "icon": "martelo",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/martelo-fibra.webp"
   },
   {
     "id": "alicate-universal",
@@ -900,8 +900,8 @@ window.ELS_PRODUCTS = [
     "icon": "alicate",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/alicate-universal.webp"
   },
   {
     "id": "alicate-pressao",
@@ -918,8 +918,8 @@ window.ELS_PRODUCTS = [
     "icon": "alicate",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/alicate-pressao.webp"
   },
   {
     "id": "broca-hss",
@@ -937,8 +937,8 @@ window.ELS_PRODUCTS = [
     "icon": "broca",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/broca-hss.webp"
   },
   {
     "id": "broca-concreto",
@@ -960,8 +960,8 @@ window.ELS_PRODUCTS = [
     "icon": "broca",
     "badge": "Corte Rápido",
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/broca-concreto.webp"
   },
   {
     "id": "epi-oculos",
@@ -979,8 +979,8 @@ window.ELS_PRODUCTS = [
     "icon": "oculos",
     "badge": "Com C.A. Aprovado",
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/epi-oculos.webp"
   },
   {
     "id": "epi-luva",
@@ -998,8 +998,8 @@ window.ELS_PRODUCTS = [
     "icon": "luva",
     "badge": "Com C.A. Aprovado",
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/epi-luva.webp"
   },
   {
     "id": "epi-abafador",
@@ -1016,8 +1016,8 @@ window.ELS_PRODUCTS = [
     "icon": "abafador",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false,
-    "image": null
+    "hasPhoto": true,
+    "image": "images/produtos/epi-abafador.webp"
   },
   {
     "id": "fix-parafuso-madeira",
@@ -1039,7 +1039,8 @@ window.ELS_PRODUCTS = [
     "icon": "parafuso",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/fix-parafuso-madeira.webp"
   },
   {
     "id": "fix-porca-borboleta",
@@ -1060,7 +1061,8 @@ window.ELS_PRODUCTS = [
     "icon": "porca-borboleta",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/fix-porca-borboleta.webp"
   },
   {
     "id": "broca-jogo-machos",
@@ -1083,7 +1085,8 @@ window.ELS_PRODUCTS = [
     "icon": "broca",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/broca-jogo-machos.webp"
   },
   {
     "id": "disco-corte-inox",
@@ -1103,7 +1106,8 @@ window.ELS_PRODUCTS = [
     "icon": "disco-corte",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/disco-corte-inox.webp"
   },
   {
     "id": "ferr-jogo-soquetes-gedore",
@@ -1120,7 +1124,8 @@ window.ELS_PRODUCTS = [
     "icon": "jogo-soquetes",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/ferr-jogo-soquetes-gedore.webp"
   },
   {
     "id": "ferr-caixa-ferramentas",
@@ -1139,7 +1144,8 @@ window.ELS_PRODUCTS = [
     "icon": "caixa-ferramentas",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/ferr-caixa-ferramentas.webp"
   },
   {
     "id": "ind-mangueira-hidraulica",
@@ -1160,7 +1166,8 @@ window.ELS_PRODUCTS = [
     "icon": "mangueira",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/ind-mangueira-hidraulica.webp"
   },
   {
     "id": "ind-cabo-aco",
@@ -1180,7 +1187,8 @@ window.ELS_PRODUCTS = [
     "icon": "cabo-aco",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/ind-cabo-aco.webp"
   },
   {
     "id": "ind-corrente",
@@ -1200,7 +1208,8 @@ window.ELS_PRODUCTS = [
     "icon": "corrente",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/ind-corrente.webp"
   },
   {
     "id": "ind-eletrodo",
@@ -1220,7 +1229,8 @@ window.ELS_PRODUCTS = [
     "icon": "eletrodo",
     "badge": null,
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/ind-eletrodo.webp"
   },
   {
     "id": "epi-capacete",
@@ -1237,7 +1247,8 @@ window.ELS_PRODUCTS = [
     "icon": "capacete",
     "badge": "Com C.A. Aprovado",
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/epi-capacete.webp"
   },
   {
     "id": "epi-protetor-plug",
@@ -1254,7 +1265,8 @@ window.ELS_PRODUCTS = [
     "icon": "protetor-plug",
     "badge": "Com C.A. Aprovado",
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/epi-protetor-plug.webp"
   },
   {
     "id": "epi-mascara-pff2",
@@ -1271,7 +1283,8 @@ window.ELS_PRODUCTS = [
     "icon": "mascara-pff2",
     "badge": "Com C.A. Aprovado",
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/epi-mascara-pff2.webp"
   },
   {
     "id": "epi-cinto-seguranca",
@@ -1288,7 +1301,8 @@ window.ELS_PRODUCTS = [
     "icon": "cinto-seguranca",
     "badge": "Com C.A. Aprovado",
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/epi-cinto-seguranca.webp"
   },
   {
     "id": "epi-mascara-solda",
@@ -1305,6 +1319,7 @@ window.ELS_PRODUCTS = [
     "icon": "mascara-solda",
     "badge": "Com C.A. Aprovado",
     "badge2": null,
-    "hasPhoto": false
+    "hasPhoto": true,
+    "image": "images/produtos/epi-mascara-solda.webp"
   }
 ];
